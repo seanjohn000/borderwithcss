@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Self-Introduction Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<header>
+		<h1>My Self-Introduction</h1>
+	</header>
+	<section>
+		<img src="my-photo.jpg" alt="My Photo">
+		<div class=h2>
+		<h2>Sean John Rodriguez</h2>
+		
+		<p>Hi, I'm a 22-year-old young man who loves adventure and having fun. I'm always looking for new and exciting experiences to add to my life, whether it's exploring new places, trying new foods, or meeting new people.</p>
+</div>
+		
+
+
+		<h2>My Education</h2>
+		<div class=main>
+		<ul>
+			<li>Senior High School, Far Eastern University</li>
+			<li>Bacherlor of Science in Information Technology, First City Providential College</li>
+		</ul>
+		</div>
+		<h2>My Skills</h2>
+		<ul>
+			<div class=main2>
+			<li>Multitasking</li>
+			<li>Creative Thinking</li>
+			<li>Time Management Skill</li>
+			<li>Great Communication</li>
+			<li>Hard Working</li>
+			</div>
+		</ul>
+		</div>
+		<h2>Contact Me</h2>
+		<form>
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" >
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" >
+			<label for="message">Message</label>
+			<textarea id="message" name="message"></textarea>
+			<button type="submit">Send</button>
+
+		</form>
+	</section>
+</body>
+
+</html>
